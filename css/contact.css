@@ -380,8 +380,19 @@ select {
       outline: 0.2em solid var(--color-background);
       outline-offset: 0;
     }
-  }
+  }  
   /* Navbar */
+
+  @media screen and (min-width : 320px) and (max-width : 500px) {}
+  .contact-us h1{
+    text-align: center;
+    padding: 2px 0px;
+}
+@media screen and (min-width : 500px) and (max-width : 768px) {}
+.contact-us h1{
+    text-align: center;
+    padding: 2px 3px 31px;
+}
 @media screen and (min-width : 320px) and (max-width : 768px) {
     iframe {
         width: auto;
@@ -399,10 +410,7 @@ select {
         border: 1px solid rgba(128, 128, 128, 0.515);
         border-radius: 20px;
     }
-    .contact-us h1{
-        text-align: center;
-        /* padding: 20px; */
-    }
+
     .contact-us p {
         display: none;
     }

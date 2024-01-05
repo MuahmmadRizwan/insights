@@ -156,6 +156,17 @@ nav {
     outline-offset: 0;
   }
 }
+@media only screen and (max-width: 768px) {
+  nav{
+text-align: center;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
 
 /* Navbar */
 /* Serv heading */

@@ -55,41 +55,41 @@ document.addEventListener('DOMContentLoaded', function () {
   startCounting('number-4', 8, 1, 100);
 });
 
-const openTab = (tabName) => {
-  const tabs = [
-    'firt',
-    'second',
-    'third',
-    'forth',
-    'fifth',
-  ];
+// const openTab = (tabName) => {
+//   const tabs = [
+//     'firt',
+//     'second',
+//     'third',
+//     'forth',
+//     'fifth',
+//   ];
 
-  tabs.forEach((tab) => {
-    const tabButton = document.getElementById(`${tab}-btn`);
+//   tabs.forEach((tab) => {
+//     const tabButton = document.getElementById(`${tab}-btn`);
 
-    if (tabButton) {
-      tabButton.classList.remove("active");
-    }
-  });
+//     if (tabButton) {
+//       tabButton.classList.remove("active");
+//     }
+//   });
 
-  const clickedTabButton = document.getElementById(`${tabName}-btn`);
-  if (clickedTabButton) {
-    clickedTabButton.classList.add("active");
-  }
+//   const clickedTabButton = document.getElementById(`${tabName}-btn`);
+//   if (clickedTabButton) {
+//     clickedTabButton.classList.add("active");
+//   }
 
-  tabs.forEach((tab) => {
-    const element = document.getElementById(tab);
-    if (element) {
-      if (tab === tabName) {
-        element.style.display = "block";
-        element.classList.add("fadeZoomIn");
-      } else {
-        element.style.display = "none";
-        element.classList.add("fadeZoomIn");
-      }
-    }
-  });
-};
+//   tabs.forEach((tab) => {
+//     const element = document.getElementById(tab);
+//     if (element) {
+//       if (tab === tabName) {
+//         element.style.display = "block";
+//         element.classList.add("fadeZoomIn");
+//       } else {
+//         element.style.display = "none";
+//         element.classList.add("fadeZoomIn");
+//       }
+//     }
+//   });
+// };
 
 
 

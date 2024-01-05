@@ -147,6 +147,7 @@ nav {
   }
 }
 
+
 /* button */
 .con {
   text-decoration: none;
@@ -427,10 +428,18 @@ nav {
   }
 
 }
+
 @media (min-width: 1410px) {
   .card-container {
     justify-content: center;
     padding: 90px;
+  }
+}
+
+@media (min-width: 1529px) {
+  .card-container {
+    justify-content: center;
+    padding: 90px 150px;
   }
 }
 /* Responsive styles for mobile view (1 card per row) */
@@ -802,7 +811,7 @@ nav {
 /* tech-stack */
 
 .tech-stack{
-  padding: 10px;
+  padding: 5px;
   position: relative;
 }
 .tech-head{
@@ -817,6 +826,12 @@ padding: 5px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.tech-card{
+  border: 1px solid rgba(128, 128, 128, 0.383);
+  background-color: rgba(255, 255, 255, 0.196);
+  backdrop-filter: blur(3px);
+  
 }
 @media (max-width: 767px) {
   .tech-head p{
@@ -837,15 +852,15 @@ padding: 5px;
       white-space: nowrap;
       position: relative;
   }
+  .tech-card{
+    border: 1px solid rgba(128, 128, 128, 0.383);
+    background-color: rgba(255, 255, 255, 0.196);
+    backdrop-filter: blur(3px);
+    
+  }
 
 }
-.tech-card{
-  border: 1px solid rgba(128, 128, 128, 0.383);
-  background-color: rgba(255, 255, 255, 0.196);
-  backdrop-filter: blur(3px);
-  border-radius: 30px 0 30px 0;
-  
-}
+
 @keyframes slide {
   from {
     transform: translateX(0);
@@ -860,7 +875,7 @@ padding: 5px;
   padding: 30px 0;
   white-space: nowrap;
   position: relative;
-  border-radius: 40px 0 40px 0;
+ 
 }
 
 .logos:before,
@@ -1042,7 +1057,7 @@ header {
   width: 20rem;
 }
 .tab-heading {
-  padding: 2rem 0;
+  padding: 10px 0;
   font-size: 3rem;
 }
 .tab-item.select_tab {

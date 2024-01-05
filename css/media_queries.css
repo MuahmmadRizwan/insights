@@ -2,6 +2,12 @@
     nav{
 text-align: center;
     }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        padding-bottom: 20px;
+      }
     .main_img{
         display: none;
     }
