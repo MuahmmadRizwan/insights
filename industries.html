@@ -33,9 +33,11 @@
     <nav class="navbar navbar-expand-lg p-0 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./assets/logo-removebg-preview (1).png" class="logo" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -46,7 +48,7 @@
               <a class="nav-link"   href="services.html">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" style="color: #FF9600;" aria-current="page"  href="services.html">Industries</a>
+                <a class="nav-link" style="color: #FF9600;" aria-current="page"  href="industries.html">Industries</a>
               </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -104,7 +106,6 @@
   </div>
    <!-- icons -->
   <br><br><br>
-<br>
 
 <secttion class="hero-img">
   <div class="containers">
@@ -453,35 +454,64 @@
     crossorigin="anonymous"></script>
   <!-- BOOTSTRAP CDN --> 
   <script>
-    const openTab = (tabName) => {
-      const tabs = ["education", "finance", "transport", "realestate", "healthcare", "technology", "telecom", "retail"];
-  
-      tabs.forEach((tab) => {
-        const tabButton = document.getElementById(`${tab}-btn`);
-        if (tabButton) {
-          tabButton.classList.remove("active");
-        }
+
+    function scrollToPosition(position) {
+                window.scrollTo({
+                    top: position,
+                    behavior: 'smooth' // Optional: Adds smooth scrolling animation
+                });
+            }
+    
+      const openTab = (tabName) => {
+        const tabs = ["education", "finance", "transport", "realestate", "healthcare", "technology", "telecom", "retail"];
+    
+        tabs.forEach((tab) => {
+          const tabButton = document.getElementById(`${tab}-btn`);
+          if (tabButton) {
+            tabButton.classList.remove("active");
+          }
+          const element = document.getElementById(tab);
+          if (element) {
+            if (tab === tabName) {
+              element.style.display = "block";
+              element.classList.add("flip-right");
+              
+              
+            } else {
+              element.style.display = "none";
+              element.classList.remove("flip-right");
+            }
+          }
+        });
+    
+        // Highlight the clicked button
         const clickedTabButton = document.getElementById(`${tabName}-btn`);
         if (clickedTabButton) {
           clickedTabButton.classList.add("active");
-        } else {
-          clickedTabButton.classList.remove("active");
-  
         }
-        const element = document.getElementById(tab);
-        if (element) {
-          if (tab === tabName) {
-            element.style.display = "block";
-            element.classList.add("flip-right");
-          } else {
-            element.style.display = "none";
-            element.classList.remove("flip-right");
-          }
-        }
-      });
-    };
-  
-        </script>
+        window.onload = function () {
+                // Check if the flag is set in local storage
+                const shouldScroll = localStorage.getItem('scrollToPage2');
+                
+                // If the flag is set, scroll to the desired position
+                if (shouldScroll === 'true') {
+                    scrollToPosition(420);
+                    
+                    // Reset the flag in local storage
+                    localStorage.setItem('scrollToPage2', 'false');
+                 
+    
+                }
+            };
+      };
+    
+    
+    
+      // Initialize based on the stored value
+      const selectedTab = localStorage.getItem('selectedTab');
+      openTab(selectedTab);
+      
+    </script>
   </body>
   </html>
 

@@ -49,50 +49,11 @@ function startCounting(targetId, endValue, step, interval) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  startCounting('number-1', 403, 4, 25);
-  startCounting('number-2', 203, 4, 25);
-  startCounting('number-3', 203, 4, 25);
-  startCounting('number-4', 8, 1, 100);
+  startCounting('number-1', 1500, 5, 10);
+  startCounting('number-2', 201, 2, 25);
+  startCounting('number-3', 10000, 50, 10);
+  startCounting('number-4', 100, 1, 30);
 });
-
-// const openTab = (tabName) => {
-//   const tabs = [
-//     'firt',
-//     'second',
-//     'third',
-//     'forth',
-//     'fifth',
-//   ];
-
-//   tabs.forEach((tab) => {
-//     const tabButton = document.getElementById(`${tab}-btn`);
-
-//     if (tabButton) {
-//       tabButton.classList.remove("active");
-//     }
-//   });
-
-//   const clickedTabButton = document.getElementById(`${tabName}-btn`);
-//   if (clickedTabButton) {
-//     clickedTabButton.classList.add("active");
-//   }
-
-//   tabs.forEach((tab) => {
-//     const element = document.getElementById(tab);
-//     if (element) {
-//       if (tab === tabName) {
-//         element.style.display = "block";
-//         element.classList.add("fadeZoomIn");
-//       } else {
-//         element.style.display = "none";
-//         element.classList.add("fadeZoomIn");
-//       }
-//     }
-//   });
-// };
-
-
-
 
 
 

@@ -41,9 +41,11 @@
   <nav class="navbar navbar-expand-lg p-0 fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./assets/logo-removebg-preview (1).png" class="logo" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -51,11 +53,19 @@
             <a class="nav-link" aria-current="page" style="color: #FF9600;" href="#">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link " href="services.html" > Services</a>
-           
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="hoverableDropdown">
+              <li><a class="dropdown-item" href="web.html">Web Development</a></li>
+              <li><a class="dropdown-item" href="design.html">Web Designing</a></li>
+              <li><a class="dropdown-item" href="seo.html">Seo</a></li>
+
+              <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link " href="industries.html" > industries</a>
+            <a class="nav-link " href="industries.html" > Industries</a>
           </li>
           
           <li class="nav-item dropdown">
@@ -117,16 +127,15 @@
     <div class="container">
       <div class="row">
         <div  class="col-lg-6 col-md-6 col-sm-12 mt-5 px-5">
-         <h1 class="main_h py-5" style="margin-top: 20%;">Optimize,Deliver Excel</h1>
-          <p class="main_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor culpa
-            ipsum. A facere culpa minus praesentium sit beatae labore mollitia consectetur!</p>
+         <h1 class="main_h py-5" style="margin-top: 15%;">Dominate the Digital Landscape</h1>
+          <p class="main_p">At Maximise Insights, our services are meticulously crafted to guarantee you don't just exist in the digital landscape – you dominate it. </p>
           <button class="Learn_more le_m"> Learn more!</button>
           <br><br>
           <div class="frame">
             <div class="spinner1">
             </div>
             <h3>99.99%</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
+            <p>99% Dedication, 100% Impact – Your Digital Revolution Starts Here!</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-6">
@@ -136,7 +145,7 @@
     </div>
   </div>
   <!-- HOME -->
-  <br>
+  <br><br><br>
   <!-- main2 -->
   <div class="container box" data-aos="fade-right" data-aos-delay="100">
     <div class="row mx-auto"> <!-- Added mx-auto class for centering -->
@@ -144,28 +153,28 @@
         <div id="number-container-1">
           <h1 class="numbers" id="number-1"></h1>
         </div>
-        <p>Marketing Collateral</p>
+        <p>Digital Campaigns Sparking Success</p>
       </div>
 
       <div class="col-lg-2 col-md-5 mb-4 num1 mx-2"> <!-- Added mb-4 class for bottom margin -->
         <div id="number-container-2">
           <h1 class="numbers" id="number-2"></h1>
         </div>
-        <p>Logos & Identity</p>
+        <p>Tailored Solutions Redefining Industries</p>
       </div>
 
       <div class="col-lg-3 col-md-5 mb-4 num1 mx-2"> <!-- Added mb-4 class for bottom margin -->
         <div id="number-container-3">
           <h1 class="numbers-3" id="number-3"></h1>
         </div>
-        <p>Website Developed</p>
+        <p>Engaged Social Media Audiences</p>
       </div>
 
       <div class="col-lg-3 col-md-5 mb-4 num1 mx-2"> <!-- Added mb-4 class for bottom margin -->
         <div id="number-container-4">
           <h1 class="numbers-4" id="number-4"></h1>
         </div>
-        <p>Years of Experience</p>
+        <p>Client Satisfaction Across 300+ Projects</p>
       </div>
     </div>
   </div>
@@ -175,10 +184,9 @@
     <div class="container ser">
       <div class="head" data-aos="fade-up" data-aos-delay="50">
         <br>
-        <h2 style="font-weight: bold;color:  #002966">OUR Services</h2>
-        <h3>Create Awesome Service With Our Tools</h3>
-        <p>Our strategy includes consistently evolving, to ensure we’re producing <br>
-          exceptional SEO for business.</p>
+        <h1 class="text-center h1-test">Our services</h1>
+        <h4 class="pt-3">Innovative Digital Solutions with a Customized Approach </h4>
+        <p class="para">With a proven history of launching over 400 websites into the digital sphere, we bring a simplicity-first approach to every development project. </p>
       </div>
     </div>
     <div class="container">
@@ -213,11 +221,9 @@
               />
             </div>
             <div class="col-md-7 tab-content-right">
-              <h1 class="tab-heading">Responsive Web Design</h1>
+              <h1 class="tab-heading">Web Development</h1>
               <p class="paragraph">
-                Web design means creating websites with user-friendly structure
-                and with aesthetic approach. A web designer always thinks about
-                the layout, color scheme and unique design of a website
+                Take a digital leap with us. We excel in creating functional websites that flawlessly exhibit your brand, translating your ideas into a unique online identity.
               </p>
               <button class="Learn_more le_m"> Learn more!</button>
             </div>
@@ -233,11 +239,9 @@
               />
             </div>
             <div class="col-md-7  tab-content-left">
-              <h1 class="tab-heading">Web Development</h1>
+              <h1 class="tab-heading">Web Design</h1>
               <p class="paragraph">
-                Web Development consists of two segments front end development
-                and backend development. Front-end Developers work with visual
-                designs of a website and build the sites with using of code
+                Design a brand masterpiece online. We integrate brand aesthetics with user-friendly interfaces, creating websites that captivate, inform, and convert.
               </p>
               <button class="Learn_more le_m"> Learn more!</button>
             </div>
@@ -247,11 +251,9 @@
               <img src="images/ux-ui.jpg" alt="UI/UX Design" class="tab-img" />
             </div>
             <div class="col-md-7 tab-content-right">
-              <h1 class="tab-heading">UI UX Design</h1>
+              <h1 class="tab-heading">UI/UX Design</h1>
               <p class="paragraph">
-                This course UX & UI Design is designed for those people, who
-                wants to design anything to keep users on first priority and
-                working on to make them happy.
+                We concentrate on intuitive interfaces, placing user-centricity at the forefront to create websites that provide a smooth experience for your visitors. 
               </p>
               <button class="Learn_more le_m"> Learn more!</button>
             </div>
@@ -268,9 +270,7 @@
               <div class="col-md-7">
               <h1 class="tab-heading">App <br> Development</h1>
               <p class="paragraph ">
-                With the world going mobile, the importance of apps is
-                increasing by the day. App development hence refers to the
-                creation of applications to be used on mobile devices.
+                Have a vision for an application in mind? Our app development expertise turns your ideas into reality. From conceptualisation to execution, let us help you develop user-friendly applications with the right functionalities. 
               </p>
               <button class="Learn_more le_m"> Learn more!</button>
               <br>
@@ -285,21 +285,20 @@
   <!-- our clients -->
   <div class="head" data-aos="fade-up" data-aos-delay="50">
     <br>
-    <h4 style="font-weight: bold;">OUR Clients</h4>
-    <h3>Create Awesome Service With Our Tools</h3>
-    <p>Our strategy includes consistently evolving, to ensure we’re producing <br>
-      exceptional SEO for business.</p>
+    <h1 class="text-center h1-test pt-3">Brands We Have Served </h1>
+    <h4 class="pt-3">Innovative Digital Solutions with a Customized Approach </h4>
+    <p class="para">Meet the brands that have experienced success after handing over <br> their development project to Maximise Insights. </p>
   </div>
   <div class="clients_img">
     <img class="clients" src="./assets/companies2-removebg-preview (1).png" alt="">
   </div>
-  <br><br>
+  <br>
 
   <!-- TECH STACK -->
   <section class="tech-stack pb-5">
     <div class="tech-head">
-      <h1 class="text-center h1-test">TECH STACK</h1>
-      <p class="tech-p">Our strategy includes consistently evolving, to ensure we’re producing <br class="indus-br"> exceptional services for business.</p>
+      <h1 class="text-center h1-test">Explore Our Tech Stack Expertise</h1>
+      <p class="tech-p">From complex frameworks to cutting-edge technologies, our services offer a dynamic <br class="indus-br"> tech stack for unparalleled digital solutions. </p>
   
     
     </div>
@@ -321,40 +320,41 @@
       </div>
     </div>
   </section>
-  <br>
+
   <!-- TECH STACK -->
 
   <!-- Industries -->
 <section style="position: relative;" class="industry">
   <div class="indus-head">
-    <h1 class="text-center h1-test">Industries</h1>
-    <p>Our strategy includes consistently evolving, to ensure we’re producing <br class="indus-br"> exceptional services for business.</p>
+    <h1 class="text-center h1-test">Industries We Transform </h1>
+    <p>Discover how the award-winning development team at Maximise Insights <br class="indus-br"> leverages years of expertise to empower multiple businesses   </p>
   </div>
   <div class="card-container">
-    <div class="cards">
-<lord-icon
-    src="https://cdn.lordicon.com/qwjfapmb.json"
-    trigger="loop"
-    delay="1500"
-    style="width:120px;height:120px">
-</lord-icon>
-<div >
-  <h1 class="icon-h1">Education</h1>
-</div>
+  <a type="button" onclick="navigateAndHighlight('education')" > 
+     <div class="cards">
+      <lord-icon
+          src="https://cdn.lordicon.com/qwjfapmb.json"
+          trigger="loop"
+          delay="1500"
+          style="width:120px;height:120px">
+      </lord-icon>
+      <h1 class="icon-h1">Education</h1>
     </div>
-    <div class="cards">
+  </a>
+
+  <a type="button"  onclick="navigateAndHighlight('finance')">
+     <div class="cards">
       <lord-icon
       src="https://cdn.lordicon.com/qnwzeeae.json"
       trigger="loop"
       delay="1500"
       style="width:120px;height:120px">
   </lord-icon>
-
-<div >
   <h1 class="icon-h1">Finance</h1>
-</div>
-
     </div>
+  </a>
+   
+  <a type="button"  onclick="navigateAndHighlight('transport')">
     <div class="cards">
       <lord-icon
     src="https://cdn.lordicon.com/hsrrkevt.json"
@@ -362,12 +362,11 @@
     delay="1500"
     style="width:120px;height:120px">
 </lord-icon>
-
-<div >
   <h1 class="icon-h1">Transportation</h1>
-</div>
-
     </div>
+  </a>
+ 
+  <a type="button"  onclick="navigateAndHighlight('realestate')">
     <div class="cards">
       <lord-icon
     src="https://cdn.lordicon.com/deqkpqde.json"
@@ -376,65 +375,59 @@
     colors="primary:#b26836,secondary:#f4dc9c,tertiary:#3a3347,quaternary:#ebe6ef,quinary:#646e78,senary:#ffc738"
     style="width:120px;height:120px">
 </lord-icon>
-
-<div >
   <h1 class="icon-h1">Real Estate</h1>
-</div>
-
     </div>
-    <div class="cards">
-      <lord-icon
-    src="https://cdn.lordicon.com/rmgtnokl.json"
-    trigger="loop"
-    delay="1500"
-    style="width:120px;height:120px">
+  </a>
+
+<a type="button"  onclick="navigateAndHighlight('healthcare')">
+  <div class="cards">
+    <lord-icon
+  src="https://cdn.lordicon.com/rmgtnokl.json"
+  trigger="loop"
+  delay="1500"
+  style="width:120px;height:120px">
 </lord-icon>
+<h1 class="icon-h1">Healthcare</h1>
+  </div>
+</a>
 
-<div >
-  <h1 class="icon-h1">Healthcare</h1>
-</div>
-
-    </div>
-    <div class="cards">
-      <lord-icon
-    src="https://cdn.lordicon.com/rlovzwva.json"
-    trigger="loop"
-    delay="1000"
-    style="width:120px;height:120px">
+<a type="button"  onclick="navigateAndHighlight('technology')">
+  <div class="cards">
+    <lord-icon
+  src="https://cdn.lordicon.com/rlovzwva.json"
+  trigger="loop"
+  delay="1000"
+  style="width:120px;height:120px">
 </lord-icon>
-
-<div >
-  <h1 class="icon-h1">Technology</h1>
-</div>
-
-    </div>
-    <div class="cards">
-      <lord-icon
-    src="https://cdn.lordicon.com/lvfwelat.json"
-    trigger="loop"
-    delay="500"
-    colors="primary:#e88c30,secondary:#66d7ee"
-    style="width:120px;height:120px">
+<h1 class="icon-h1">Technology</h1>
+  </div>
+</a>
+  
+<a type="button"  onclick="navigateAndHighlight('telecom')">
+  <div class="cards">
+    <lord-icon
+  src="https://cdn.lordicon.com/lvfwelat.json"
+  trigger="loop"
+  delay="500"
+  colors="primary:#e88c30,secondary:#66d7ee"
+  style="width:120px;height:120px">
 </lord-icon>
+<h1 class="icon-h1">Telecom</h1>
+  </div>
+</a>
 
-<div >
-  <h1 class="icon-h1">Telecom</h1>
-</div>
-
-    </div>
-    <div class="cards">
-      <lord-icon
-    src="https://cdn.lordicon.com/cosvjkbu.json"
-    trigger="loop"
-    delay="2000"
-    style="width:120px;height:120px">
+<a type="button"  onclick="navigateAndHighlight('retail')">
+  <div class="cards">
+    <lord-icon
+  src="https://cdn.lordicon.com/cosvjkbu.json"
+  trigger="loop"
+  delay="2000"
+  style="width:120px;height:120px">
 </lord-icon>
+<h1 class="icon-h1">Telecom</h1>
+  </div>
+</a>
 
-<div >
-  <h1 class="icon-h1">Telecom</h1>
-</div>
-
-    </div>
     
 
 </div>
@@ -444,10 +437,9 @@
   <!-- Resources -->
   <div class="head" data-aos="fade-up" data-aos-delay="50">
     <br>
-    <h4 style="font-weight: bold;">Resources</h4>
-    <h3>Create Awesome Service With Our Tools</h3>
-    <p>Our strategy includes consistently evolving, to ensure we’re producing <br>
-      exceptional SEO for business.</p>
+    <h1 class="text-center h1-test pt-3">Maximize Insights Resources</h1>
+
+    <p class="para pt-3">With a proven history of launching over 400 websites into the digital sphere, we bring a <br class="indus-br"> simplicity-first approach to every development project. </p>
   </div>
   <div class="container text-center py-5">
     
@@ -480,6 +472,7 @@
     <section style="position: relative;" id="testimonial_area" class="section_padding">
      <div class="test-text">
       <h1 class="text-center h1-test">Testimonials!</h1>
+      <p class="para pt-3">Here are some testimonials from our previous web development projects <br class="indus-br">  that left the clients satisfied with our services.   </p>
      </div>
       <div  class="container">
         <div class="row">
@@ -730,6 +723,14 @@
     
   </script>
   <script src="index.js"></script>
+  <script>
+        const navigateAndHighlight = (tabName) => {
+      // Save the selected tab in localStorage
+        localStorage.setItem('selectedTab', tabName);
+        localStorage.setItem('scrollToPage2', 'true');
+        window.location.href = 'industries.html';
+      };
+  </script>
 </body>
 
 </html>
