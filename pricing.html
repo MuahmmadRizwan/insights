@@ -26,8 +26,10 @@
 <!-- Fonts -->
 </head>
 <body>
-  <div class="fixed-image" style="position: relative;">
-    <img src="./assets/WhatsApp Image 2023-12-27 at 10.42.27 AM.jpeg" class="top-img" alt="">
+  <video id="home-video" autoplay muted loop>
+    <source src="Home Page Animation.mp4"  type="video/mp4">
+    Your browser does not support the video tag.
+</video>
     <!-- Nav bar -->
   <div class="background">
     <nav class="navbar navbar-expand-lg p-0 fixed-top">
@@ -44,8 +46,20 @@
             <li class="nav-item">
               <a class="nav-link"   href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link"   href="services.html">Services</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link  dropdown-toggle" id="close" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="hoverableDropdown">
+                <li><a class="dropdown-item"   href="web.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="design.html">Web Designing</a></li>
+                <li><a class="dropdown-item" href="seo.html">Seo</a></li>
+                <li><a class="dropdown-item"   href="web.html">Web Development</a></li>
+                <li><a class="dropdown-item" href="design.html">Web Designing</a></li>
+                <li><a class="dropdown-item" href="seo.html">Seo</a></li>
+  
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link"   href="industries.html">industries</a>
@@ -1508,7 +1522,7 @@
         </div>
       </section>
     </div>
-    </div>
+    
     <br><br>
       <!-- footer -->
 <footer class="footers">

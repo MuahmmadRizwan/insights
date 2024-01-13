@@ -25,6 +25,7 @@ body {
   height: 80px;
 }
 
+
 /* Remove border from toggler */
 .navbar-toggler {
   border: 0 !important;
@@ -42,7 +43,7 @@ body {
 .toggler-icon{
   width: 30px;
   height: 3px;
-  background-color: #e74c3c;
+  background-color:  #ff9600;
   display: block;
   transition: all 0.2s;
 }
@@ -97,8 +98,14 @@ nav {
   box-shadow: 2px 5px 10px rgba(128, 128, 128, 0.527);
 }
 
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
+.nav-link:hover {
+  color: orange;
+  font-size:16px ;
+}
+@media (min-width: 768px){
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
 
 .nav-item {
@@ -114,8 +121,8 @@ nav {
   display: flex;
   justify-content: center;
   --color-text: #ffffff;
-  --color-background: #FF9600;
-  --color-outline: #FF9600;
+  --color-background: #ff9600;
+  --color-outline: #ff9600;
   --color-shadow: #00000080;
 }
 
@@ -186,12 +193,6 @@ nav {
   animation: color_anim 1s infinite 0.4s;
 }
 
-.con {
-  text-decoration: none;
-  color: #002966;
-
-}
-
 /* SVG animations */
 @keyframes color_anim {
   0% {
@@ -221,6 +222,22 @@ nav {
     outline-offset: 0;
   }
 }
+
+
+/* button */
+.con {
+  text-decoration: none;
+  color: #002966;
+}
+
+.dropdown-menu {
+  background-color: #fffffff6;
+  backdrop-filter: blur(19px);
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.234);
+}
+
 @media only screen and (max-width: 768px) {
   nav{
 text-align: center;
