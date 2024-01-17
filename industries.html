@@ -27,10 +27,12 @@
 <!-- Fonts -->
 </head>
 <body>
-  <div class="fixed-image" style="position: relative;">
-    <img src="./assets/WhatsApp Image 2023-12-27 at 10.42.27 AM.jpeg" class="top-img" alt="">
+
+  <video id="home-video" autoplay muted loop>
+    <source src="./assets/Home Page Animation.mp4"  type="video/mp4">
+    Your browser does not support the video tag.
+</video>
     <!-- Nav bar -->
-  <div class="background">
     <nav class="navbar navbar-expand-lg p-0 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./assets/logo-removebg-preview (1).png" class="logo" alt=""></a>
@@ -49,15 +51,11 @@
               <a class="nav-link  dropdown-toggle" id="close" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
               </a>
-              <ul class="dropdown-menu " aria-labelledby="hoverableDropdown">
-                <li><a class="dropdown-item"   href="web.html">Web Development</a></li>
-                <li><a class="dropdown-item" href="design.html">Web Designing</a></li>
-                <li><a class="dropdown-item" href="seo.html">Seo</a></li>
-                <li><a class="dropdown-item"   href="web.html">Web Development</a></li>
-                <li><a class="dropdown-item" href="design.html">Web Designing</a></li>
-                <li><a class="dropdown-item" href="seo.html">Seo</a></li>
-  
-                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              <ul class="dropdown-menu" aria-labelledby="hoverableDropdown">
+                <li><a class="dropdown-item" href="web.html">Website development</a></li>
+                <li><a class="dropdown-item" href="design.html">Digital Marketing </a></li>
+                <li><a class="dropdown-item" href="seo.html">Graphic Designing</a></li>
+                <li><a class="dropdown-item" href="seo.html">Software development </a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -123,8 +121,8 @@
 <secttion class="hero-img">
   <div class="containers">
     <div class="image">
-      <h1>Industries</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius tempore dolore aspernatur! Vel, ab necessitatibus. At, soluta? Reiciendis earum quidem tempora, architecto,</p>
+      <h1>Industries We Transform</h1>
+      <p>Explore how Maximise Insights revolutionizes diverse industries through bespoke web solutions. From real estate to finance, we are your strategic partner in the digital evolution, enhancing user experiences and streamlining operations.</p>
       <img src="./assets/industries.jpeg" alt="">
     </div>
   </div>
@@ -135,14 +133,14 @@
     <div class="row">
       <div class="col-lg-2">
         <div class="tab-buttons "> 
-          <button id="education-btn"  class="button btn-txt tab active shadow" onclick="openTab('education')" >Button 1</button>
-          <button id="finance-btn"    class="button btn-txt tab  shadow" onclick="openTab('finance')" >Button 1</button>
-          <button id="transport-btn"  class="button btn-txt tab  shadow" onclick="openTab('transport')" >Button 1</button>
-          <button id="realestate-btn" class="button btn-txt tab  shadow" onclick="openTab('realestate')" >Button 1</button>
-          <button id="healthcare-btn" class="button btn-txt tab  shadow" onclick="openTab('healthcare')" >Button 1</button>
-          <button id="technology-btn" class="button btn-txt tab  shadow" onclick="openTab('technology')" >Button 1</button>
-          <button id="telecom-btn"    class="button btn-txt tab  shadow" onclick="openTab('telecom')" >Button 1</button>
-          <button id="retail-btn"     class="button btn-txt tab  shadow" onclick="openTab('retail')" >Button 1</button>
+          <button id="education-btn"  class="button btn-txt tab active shadow" onclick="openTab('education')" >Education </button>
+          <button id="finance-btn"    class="button btn-txt tab  shadow" onclick="openTab('finance')" >Finance </button>
+          <button id="transport-btn"  class="button btn-txt tab  shadow" onclick="openTab('transport')" >Logistics and Distribution </button>
+          <button id="realestate-btn" class="button btn-txt tab  shadow" onclick="openTab('realestate')" >Realestate </button>
+          <button id="healthcare-btn" class="button btn-txt tab  shadow" onclick="openTab('healthcare')" >Healthcare </button>
+          <button id="technology-btn" class="button btn-txt tab  shadow" onclick="openTab('technology')" >Travel and Hospitality </button>
+          <button id="telecom-btn"    class="button btn-txt tab  shadow" onclick="openTab('telecom')" >Telecom </button>
+          <button id="retail-btn"     class="button btn-txt tab  shadow" onclick="openTab('retail')" >Retail </button>
         
         </div>
       </div>
@@ -157,7 +155,7 @@
   <div class="row">
     <div class="col-lg-7">
       <h1 class="text-primary">Education</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <p>Ever since the pandemic, the infusion of technology in education has been more than just a trend. It has become a necessity. Maximise Insights understands the unique challenges facing education and is here to provide human-centric tech solutions. Our education design agency aims to make learning accessible, engaging, and innovative. Our mission is to seamlessly integrate technology into education, creating an inclusive learning experience for all.</p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -167,15 +165,23 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>
+    Learning Management Systems (LMS)</h4>
+    <p>Revolutionize education delivery with our Learning Management Systems. We create intuitive platforms that empower educators to organize content, facilitate communication, and track student progress efficiently.</p>
+    <br>
+    <h4>E-Learning Platforms</h4>
+    <p>Design engaging and interactive e-learning platforms that transcend geographical boundaries. Our solutions facilitate remote learning, incorporating high-resolution multimedia elements to enhance student comprehension and engagement.</p>
+    <br>
+    <h4>Student Portals</h4>
+    <p>Foster student-centric experiences with dedicated portals. We design platforms that offer centralized access to resources, assignments, grades, and communication, enhancing overall student satisfaction.</p>
+    <br>
+    <h4>Customized Curriculum Development</h4>
+    <p>Tailor educational content to your specific curriculum requirements. Our solutions enable institutions to create and adapt digital content, ensuring alignment with educational goals and standards.</p>
+    
+
+ </p>
 </div>
 </div>
 <!-- Education -->
@@ -185,7 +191,7 @@
   <div class="row">
     <div class="col-lg-7">
       <h1 class="text-primary">Finance</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <p>Welcome to Maximise Insights, a fintech design agency where we set on a journey to redefine finance through digital innovation. Our mission is to be your strategic ally, empowering financial institutions with custom web solutions that not only enhance customer experiences but also revolutionize the way financial transactions are conducted securely.</p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -195,15 +201,17 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>Easy Banking Experiences</h4>
+  <p>Enjoy seamless banking portals designed for user-friendly experiences. Our solutions simplify account management, transactions, and financial planning to make your journey in finance effortless.</p><br>
+  <h4>Secure Payment Gateways</h4>
+  <p>Experience peace of mind with secure and smooth financial transactions through integrated gateways. Our solutions prioritize the highest standards of security to build trust in your online transactions.</p><br>
+  <h4>Convenient Mobile Banking</h4>
+  <p>Stay connected to your funds with accessible mobile banking solutions. Maximise Insights is a finance design firm that integrates intuitive mobile platforms, giving you the power to manage your finances conveniently on the go.</p><br>
+  <h4>Insightful Financial Analytics</h4>
+  <p>Make informed decisions with powerful analytics tools. Our solutions provide real-time insights, empowering financial institutions to plan strategically and enhance their financial experience.</p>
+ </p>
 </div>
 </div>
 <!-- finance -->
@@ -212,8 +220,8 @@
 <div class="col-lg-9 indus-height" id="transport">
   <div class="row">
     <div class="col-lg-7">
-      <h1 class="text-primary">transport</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <h1 class="text-primary">Logistics and Distribution</h1>
+      <p>In the world of logistics, businesses face a multitude of challenges, from unpredictable demand to the constant fluctuation of fuel costs. These complexities make it a difficult task to maintain efficiency while meeting customer expectations. Our logistics design firm aims to unravel the intricacies of logistics, providing businesses with the tools to streamline operations, enhance visibility, and ultimately conquer the hurdles that come with transportation and distribution. </p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -223,15 +231,17 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>Supply Chain Visibility Platforms</h4>
+  <p>Design platforms that provide real-time visibility into the supply chain. Our solutions empower businesses to track and manage inventory, shipments, and delivery schedules, ensuring optimal efficiency.</p><br>
+  <h4>Warehouse Management Systems</h4>
+  <p>Streamline warehouse operations with efficiency in mind. Our implemented systems optimize inventory management, order processing, and logistics coordination, enhancing overall operational performance.</p><br>
+  <h4>Route Optimization Solutions</h4>
+  <p>Enhance distribution efficiency with intelligent route optimization. Our solutions analyze data to determine the most efficient routes for delivery, reducing costs and improving delivery timelines.</p><br>
+  <h4>Real-Time Tracking and Reporting</h4>
+  <p>Prioritize visibility and control with real-time tracking. Maximise Insights implements advanced tracking and reporting systems that provide accurate, up-to-date information on shipments, allowing businesses to make actionable and informed decisions.</p>
+ </p>
 </div>
 </div>
 <!-- transport -->
@@ -240,8 +250,8 @@
 <div class="col-lg-9 indus-height" id="realestate">
   <div class="row">
     <div class="col-lg-7">
-      <h1 class="text-primary">realestate</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <h1 class="text-primary">Real Estate</h1>
+      <p>Imagine effortlessly exploring homes through virtual tours, making informed decisions with detailed property showcases, and smoothly navigating transactions with just a few clicks. From streamlining transactions to transparent communication, it is about making buying or selling a home a more accessible, convenient, and engaging experience for everyone involved. Our real estate design agency is at the forefront of this tech revolution. </p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -251,15 +261,17 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>Property Showcase Platforms</h4>
+  <p>Now build visually appealing platforms that showcase properties effectively. Our solutions enhance property visibility, making it easier for buyers and investors to explore and make informed decisions.</p><br>
+  <h4>Transaction Management Systems</h4>
+  <p>Streamline real estate transactions with efficient back-end systems. Our implemented solutions optimize the process, from property listings to contract management, ensuring a smooth and transparent transaction experience.</p><br>
+  <h4>Virtual Tours and 3D Presentations</h4>
+  <p>Elevate property viewing experiences with virtual tours. Maximise Insights integrates innovative technologies to provide potential buyers with immersive 3D presentations, enhancing remote property exploration.</p><br>
+  <h4>Customer Relationship Management (CRM)</h4>
+  <p>Prioritize customer interactions with robust CRM frameworks. Our solutions facilitate effective communication, lead management, and customer engagement, fostering strong relationships between real estate professionals and their clients.</p>
+ </p>
 </div>
 </div>
 <!-- realestate -->
@@ -268,8 +280,8 @@
 <div class="col-lg-9 indus-height" id="healthcare">
   <div class="row">
     <div class="col-lg-7">
-      <h1 class="text-primary">healthcare</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <h1 class="text-primary">Healthcare</h1>
+      <p>Maximise Insights recognizes the challenges faced by healthcare professionals – from optimizing patient care to ensuring data security. Our healthcare design agency aims to bridge these gaps by streamlining workflows, introducing telemedicine capabilities, and prioritizing the confidentiality of patient information. </p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -279,15 +291,18 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>Patient-Focused Web Platforms</h4>
+  <p>As intuitive platforms that prioritize patient well-being, our solutions empower healthcare providers to efficiently manage patient data and appointments, fostering personalized and compassionate care.</p><br>
+  <h4>Telemedicine Integration</h4>
+  <p>Embrace the future of healthcare delivery. Our solutions facilitate secure and user-friendly telemedicine platforms, bringing healthcare services directly to patients wherever they are.</p><br>
+  <h4>Efficient Workflow Systems</h4>
+  <p>Streamlining operations for a more efficient practice, our systems optimize administrative processes, reduce paperwork, and enhance overall efficiency, allowing healthcare professionals to focus on what matters most – patient care.</p><br>
+  <h4>Securing Patient Data</h4>
+  <p>Upholding the highest standards of data security, Maximise Insights implements strong measures to guarantee the confidentiality and security of patient information, building trust and compliance with healthcare regulations.</p>
+
+ </p>
 </div>
 </div>
 <!-- healthcare -->
@@ -296,8 +311,8 @@
 <div class="col-lg-9 indus-height" id="technology">
   <div class="row">
     <div class="col-lg-7">
-      <h1 class="text-primary">technology</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <h1 class="text-primary">Travel and Hospitality</h1>
+      <p>Hospitality business frequently faces real-life challenges, like keeping up with changing travel trends, meeting unique guest needs, and managing staffing shortages. At Maximise Insights, we get it. Imagine tailored web solutions as tools that help businesses effortlessly handle these challenges, creating smooth and unforgettable experiences for both guests and the teams that make it all happen. </p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -307,15 +322,19 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>
+    User-Friendly Booking Platforms</h4>
+    <p>Create booking platforms that prioritize ease of use. Our hospitality design firm simplifies the booking process, offering travelers a seamless journey from exploration to reservation.</p><br>
+    <h4>
+      Personalized Customer Portals</h4>
+      <p>Make personalized interactions with dedicated portals. We design platforms that provide centralized access to booking history, preferences, and exclusive offers, enhancing overall customer satisfaction.</p><br>
+      <h4>Integrated Payment Gateways</h4>
+      <p>Ensure secure and convenient transactions. Our solutions prioritize the security of financial transactions, offering customers peace of mind during their booking process.</p><br>
+      <h4>Real-Time Communication Channels</h4>
+      <p>Prioritize real-time communication. Maximise Insights implements channels facilitating instant updates, personalized recommendations, and timely responses to customer inquiries.</p>
+ </p>
 </div>
 </div>
 <!-- technology -->
@@ -335,15 +354,9 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3>
+ </p>
 </div>
 </div>
 <!-- telecom -->
@@ -352,8 +365,8 @@
 <div class="col-lg-9 indus-height" id="retail">
   <div class="row">
     <div class="col-lg-7">
-      <h1 class="text-primary">retail</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas placeat tempora maiores animi consectetur. Iusto accusantium, unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!!unde ab cumque ut itaque voluptas deleniti earum fuga, eum aut. Corporis, deserunt excepturi!</p>
+      <h1 class="text-primary">Retail and Ecommerce</h1>
+      <p>In the dynamic world of retail, where customer expectations evolve at the speed of technology, our retail and ecommerce design firm stands as your strategic partner. As the retail landscape undergoes a digital transformation, our goal is to empower businesses with customized web solutions that elevate customer engagement, streamline operations, and drive online and offline sales.</p>
     </div>
     <div class="col-lg-5">
         <div class="indus-img">
@@ -363,15 +376,18 @@
 </div>
  <hr>
  <div class="content">
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae architecto eligendi possimus quo facere optio dolorem eveniet doloribus quidem quae incidunt illum nesciunt nihil, culpa ex aspernatur recusandae in minus?
- Facilis iusto optio nam tenetur repudiandae error vel tempore officiis obcaecati harum ea, assumenda accusamus ipsa? Officiis nisi hic quos sit sint, nostrum est rerum. Fuga totam eos veritatis quae!
- Dolorem optio unde dignissimos reiciendis, cumque doloremque facere repudiandae consequatur ducimus iste ipsam adipisci voluptas amet consectetur asperiores sed accusamus eveniet saepe culpa repellendus delectus architecto fuga. Odit, possimus numquam.
- Animi, tempora at nemo perspiciatis facilis soluta sunt sed fuga perferendis modi officia dicta suscipit nostrum, ad non labore ab molestiae delectus distinctio saepe. Distinctio eveniet eius accusamus nisi quas.
- Hic earum nisi eum incidunt itaque nemo nobis eius veritatis dolores, quaerat animi molestiae excepturi adipisci tempore nulla dicta officia dolorum repellat obcaecati! Veritatis delectus, praesentium eos magni at quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius illo asperiores quas hic magnam earum neque ducimus, voluptatem qui animi aliquid minima reiciendis iusto perferendis quasi! Corporis, nemo quas.
- Explicabo, accusantium? Animi amet tenetur minima incidunt perspiciatis aliquam. Voluptate vero tenetur error, voluptas optio, a ex soluta esse assumenda incidunt iusto sed fugiat fuga voluptates illo voluptatum nemo blanditiis.
- Quaerat, quidem! Aspernatur odio, ea corrupti quaerat adipisci dolores libero quis, voluptatibus aperiam, voluptates rerum doloribus molestiae architecto molestias facere nesciunt ut. Reprehenderit fuga facere excepturi deserunt laborum. Nulla, facere?
- Expedita eius fuga ex illo, quod asperiores quas dolor numquam a, voluptatum ab mollitia culpa quisquam adipisci tenetur nostrum ipsa saepe at quae velit rem doloribus. Fugiat nam consequatur ipsam?
- Vero, animi magnam a neque voluptatem blanditiis repellat! Quaerat, atque. Corporis, rem. Placeat nobis dolorem dolores a, iusto voluptas facilis amet aliquid accusamus non aut praesentium fuga, nostrum nemo sint?</p>
+ <p>
+  <h3 class="text-primary">What We Do?</h3><br>
+  <h4>Ecommerce Platforms</h4>
+  <p>Create visually appealing and user-friendly online stores that not only captivate but also convert. We optimize the user journey, from product discovery to checkout, ensuring a seamless shopping experience.</p><br>
+  <h4>Mobile Commerce Integration</h4>
+  <p>Stay connected with on-the-go shoppers. Our solutions include mobile commerce integration, making your brand accessible to customers wherever they are, fostering increased sales and customer loyalty.</p><br>
+  <h4>Inventory Management Systems</h4>
+  <p>Streamline operations with efficient inventory management. We implement systems that provide real-time updates, preventing overselling, and ensuring your retail store remains well-stocked and ready to meet customer demands.</p><br>
+  <h4>User Behavior Analytics</h4>
+  <p>Understand your customers better with analytics tools. Gain insights into user behavior, preferences, and trends, enabling data-driven decisions for your retail strategy. Through these services, Maximise Insights aims to not only meet but exceed the expectations of the modern retail consumer.</p><br>
+  <h4></h4>
+ </p>
 </div>
 </div>
 <!-- retail -->

@@ -253,7 +253,7 @@ text-align: center;
 /* Navbar */
 /* Serv heading */
 .ser-head {
-  margin-top: 25%;
+  margin-top: 35%;
   position: relative;
   text-align: left;
 }
@@ -264,8 +264,8 @@ text-align: center;
 }
 
 .ser-img img {
-  width: 600px;
-  height: 600px;
+  width: 530px;
+  height: auto;
 }
 
 .ser-img {
@@ -355,7 +355,7 @@ box-shadow: 5px 10px 5px rgba(128, 128, 128, 0.276);
 }
 
 .dev-1 h3{
-  padding: 15px;
+  padding: 10px 2px;
   padding-bottom: 0px;
   color: #002966;
   font-weight: 600;
@@ -367,12 +367,16 @@ box-shadow: 5px 10px 5px rgba(128, 128, 128, 0.276);
   overflow-x: hidden;
 }
 .devp p{
-  padding: 25px;
+  padding: 0px 20px 26px 20px;
   margin: auto;
 }
 
 
-
+@media (min-width: 1200px){
+h3{
+    font-size: 1.45rem;
+}
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
